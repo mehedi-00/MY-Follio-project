@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span,ul,ol,{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+p{  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7e8287;
+}
+
+
+/* header part css */
+
+.custom-nav{
+    background-color: #02918c;
+}
+#mynav ul li a{
+    font-size: 12px;
+    color: #fff;
+    padding: 13px 25px;
+}
+/* baner part css */
+
+#baner .carousel-item{
+    height: 600px;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 1;
+}
+#baner .carousel-item::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: -1;
+}
+#baner .row{
+    height: 600px;
+}
+#baner .carousel-item h2{
+    font-size: 30px;
+    color: #fff;
+}
+#baner .carousel-item h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 20px;
+}
+.baner-content img{
+    display: block;
+    margin:0 auto;
+    padding: 50px 0;
+}
+.baner-content a{
+    display: inline-block;
+    font-size: 14px;
+    color: #0b1016;
+    font-weight: 800;
+    background-color: #e5e31d;
+    padding: 12px 50px;
+}
+
+/* about part css */
+
+#about{
+    padding: 100px 0;
+}
+.section-header span{
+    font-size: 23px;
+    font-weight: 800;
+    color:#898c91
+}
+.section-header img{
+    margin: 25px 0;
+}
+.section-header p{
+    line-height: 41px;
+}
+.about-bar{
+    border-right: 1px solid #7e8287;
+    margin-top: 50px;
+    padding: 30px 40px 50px 40px ;
+}
+.title-item h3{
+    margin: 20px 0;
+
+}
+.title-item i{
+    color: #02918c;
+}
+.title-item p{
+    font-size: 11px;
+    line-height: 21px;
+}
+
+/* services part css */
+
+#services{
+    background-image: url(../images/services-background.jpg);
+    background-size: cover ;
+    background-position: center;
+    padding: 70px 0;
+}
+
+#services .about-bar{
+    border: none;
+    margin-top: 50px;
+    padding-left: 0;
+}
+#services .about-bar p{
+    padding-right: 30px;
+}
+
+/* work part css */
+#work{
+    padding: 100px 0 70px 0;
+}
+.gallery-overley{
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(35,153,145,.7);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    padding: 50px 35px;
+    overflow: hidden;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.gallery-item:hover .gallery-overley{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.gallery-overley h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+.gallery-overley p{
+    font-size: 13px;
+    line-height: 18px;
+}
+/* contact part css */
+
+#contact{
+    padding-top: 100px;
+    
+}
+.contact-form{
+    margin-top: 70px;
+    background-color: #0b0b0b;
+    padding: 50px 0;
+}
+.contact-form .form-control{
+    background: none;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.form-text{
+    resize: none;
+    background: transparent;
+    border: none;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #7e8287;
+    height: 100px;
+    color: #7e8287;
+    padding: 15px 10px;
+}
+.contact-form .form-lavelname{
+    color: #7e8287;
+}
+.form-btn{
+    margin-top: 50px;
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+    color: #0b1016;
+    font-weight: 800;
+    background-color: #e5e31d;
+    padding: 12px 50px;
+}
+
+/* footer part css */
+
+#last-part{
+    background-color: #000;
+    padding: 30px 0;
+}
+#last-part h5{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}

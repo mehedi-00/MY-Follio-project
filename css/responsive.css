@@ -1,0 +1,221 @@
+
+@media (min-width: 1200) and (max-width:1400px) {}
+
+
+@media (min-width: 992px) and (max-width:1199.90px) {
+    #baner .carousel-item{
+        height: 500px;
+    }
+    #baner .row{
+        height: 500px;
+    }
+    #baner .carousel-item h2{
+        font-size: 25px;
+    }
+    #baner .carousel-item h1{
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    .baner-content img{
+        padding: 15px 0;
+    }
+
+    .about-bar{
+        padding: 30px 25px 50px 25px ;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:991.90px) { 
+    #baner .carousel-item{
+        height: 450px;
+    }
+    #baner .row{
+        height: 450px;
+    }
+    #baner .carousel-item h2{
+        font-size: 20px;
+    }
+    #baner .carousel-item h1{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .baner-content img{
+        padding: 20px 0;
+    }
+    .form-btn,
+    .baner-content a{
+        padding: 12px 30px;
+    }
+
+    #about{
+        padding-bottom: 50px;
+    }
+    #about .section-header p{
+        text-align: justify;
+        padding: 0 30px;
+        line-height: 30px;
+    }
+
+    .about-bar:nth-child(2){
+        border-right: none;
+    }
+    .about-bar {
+        padding: 30px 60px;
+    }
+
+    #services{
+        background-image: url(../images/services-sm-baner.jpg);
+    }
+    #services .section-header{
+        text-align: center;
+    }
+    .service-header{
+        margin: 0 auto;
+    }
+    #services .about-bar{
+        text-align: center;
+        margin-top: 25px;
+        padding: 0 45px;
+    }
+
+    .gallery-overley{
+        top: 40px;
+        left: 40px;
+        right: 40px;
+        bottom: 40px;
+    }
+
+ }
+
+/* // Medium devices (tablets) */
+@media (min-width: 576px) and (max-width:767.90px) { 
+    #baner .carousel-item{
+        height: 400px;
+    }
+
+    #baner .row{
+        height: 400px;
+    }
+    #baner .carousel-item h2{
+        font-size: 15px;
+    }
+    #baner .carousel-item h1{
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+    .baner-content img{
+        padding: 20px 0;
+    }
+    .baner-content a{
+        padding: 12px 30px;
+    }
+
+    #about{
+        padding:50px 0;
+    }
+    #about .section-header p{
+        text-align: justify;
+        padding: 0 30px;
+        line-height: 30px;
+    }
+
+    .about-bar:nth-child(2){
+        border-right: none;
+    }
+
+    #services{
+        background-image: url(../images/services-sm-baner.jpg);
+    }
+    #services .section-header{
+        text-align: center;
+        padding: 0 50px;
+    }
+
+    #services .about-bar{
+        text-align: center;
+        margin-top: 25px;
+        padding: 0 40px;
+    }
+
+}
+
+/* //small and medium */
+
+@media (max-width:767.90px) {
+    .custom-nav{
+        padding: 10px 0;
+    }
+    #mynav ul li a{
+        padding: 10px 20;
+}
+    #mynav ul{
+        margin-top: 20px;
+    }
+
+    .gallery-overley{
+        top: 40px;
+        left: 40px;
+        right: 40px;
+        bottom: 40px;
+    }
+}
+
+/* // Small devices (landscape phones ) */
+@media (max-width: 575px) {
+
+    #baner .carousel-item{
+        height: 320px;
+    }
+    #baner .row{
+    height: 320px;
+    }
+
+    #baner .carousel-item h2{
+        font-size: 12px;
+    }
+    #baner .carousel-item h1{
+        display: none;
+    }
+    .baner-content img{
+        padding: 10px 0;
+    }
+    .baner-content a{
+        padding: 12px 20px;
+    }
+
+    #about{
+        padding:30px 0;
+    }
+    #about .section-header p{
+        text-align: justify;
+        padding: 0 30px;
+        line-height: 24px;
+    }
+    .section-header span{
+        display: none;
+    }
+    .about-bar{
+        border: none;
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+    #services{
+        background-image: url(../images/services-sm-baner.jpg);
+        padding: 20px 0;
+    }
+    #services .section-header{
+        text-align: center;
+    }
+
+    #services .about-bar{
+        text-align: center;
+        margin-top: 25px;
+        padding: 0 40px;
+    }
+
+}
+
+
+
